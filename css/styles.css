@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 2% 7% 6%;
+}
+/*navigationbar*/
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    font-family: 'Montserrat-Thin', sans-serif;
+    font-size: 1.2rem;
+}
+.nav-link{
+    margin: 0 18px;
+}
+/*buttons*/
+.Download-buttons{
+    margin: 20px 20px 0 0;
+}
+/*titleimage*/
+.image-iphone{
+    width: 15rem;
+    transform: rotate(25deg);
+    margin-top: 30px;
+    position: absolute;
+    right: 15rem;
+}
+@media (max-width:990px){
+    #title{
+        text-align: center;
+    }
+    .image-iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/*features*/
+#features{
+    padding: 4rem 5rem 3rem;
+    background-color: white;
+    position: relative;
+    
+    
+    
+    
+}
+.feature-grid{
+    text-align: center;
+    line-height: 2;
+    
+}
+.feature-icon{
+    color: #ef8172;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+.features-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feature-details{
+    color: #8f8f8f;
+}
+/*testimonials*/
+#testimonials{
+    background-color: #ef8172;
+    
+    text-align: center;
+    color: white;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+.testimonial-icon{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.25rem 1.5rem 0;
+    padding-bottom: 2rem;
+}
+/*press*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-icon{
+    width: 12rem;
+    margin: 2rem 2rem;
+}
+/*prices*/
+.card{
+  
+   margin: 0 2rem;
+}
+#pricing{
+    text-align: center;
+    padding: 6rem 6rem 2rem;
+}
+.price-row{
+    padding: 3rem 0.8rem;
+}
+/*call for action*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5rem 15rem 5rem;
+}
+.cta-heading{
+    font-weight: 900;
+    color: white;
+}
+@media (max-width:712px){
+    #cta{
+        padding: 5rem;
+    }
+}
+/*footer*/
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 3rem;
+    line-height: 2;
+}
+.social{
+    color: #8f8f8f;
+}
+.social-icons{
+    color: black;
+    padding: 3rem 1rem;
+}
+
